@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3e64bf4e-7abb-487e-9fb3-9d77a7ee0965</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleFileDownloader.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>SimpleCSVDataDownloader.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>SimpleFileDownloader</Name>
+    <Name>SimpleCSVDataDownloader</Name>
     <RootNamespace>SimpleFileDownloader</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SimpleFileDownloader.py" />
+    <Compile Include="SimpleCSVDataDownloader.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
